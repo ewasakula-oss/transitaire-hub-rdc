@@ -1,0 +1,161 @@
+[
+  {
+    "id": "guangzhou",
+    "nom": "Guangzhou",
+    "province": "Guangdong",
+    "type": "ville",
+    "zone_parente": "",
+    "specialisations": [
+      "Vêtements",
+      "Chaussures",
+      "Sacs",
+      "Beauté",
+      "Accessoires"
+    ],
+    "statut": "Référentiel",
+    "source": "Référentiel Chine — sources de sourcing 2026",
+    "date_verification": "2026-10-02"
+  },
+  {
+    "id": "yiwu",
+    "nom": "Yiwu",
+    "province": "Zhejiang",
+    "type": "ville",
+    "zone_parente": "",
+    "specialisations": [
+      "Petits articles",
+      "Accessoires",
+      "Cadeaux",
+      "Maison",
+      "Papeterie"
+    ],
+    "statut": "Référentiel",
+    "source": "Référentiel Chine — sources de sourcing 2026",
+    "date_verification": "2026-10-02"
+  },
+  {
+    "id": "shenzhen",
+    "nom": "Shenzhen",
+    "province": "Guangdong",
+    "type": "ville",
+    "zone_parente": "",
+    "specialisations": [
+      "Électronique",
+      "Accessoires téléphones",
+      "Composants",
+      "Gadgets"
+    ],
+    "statut": "Référentiel",
+    "source": "Référentiel Chine — sources de sourcing 2026",
+    "date_verification": "2026-10-02"
+  },
+  {
+    "id": "foshan",
+    "nom": "Foshan",
+    "province": "Guangdong",
+    "type": "ville",
+    "zone_parente": "",
+    "specialisations": [
+      "Meubles",
+      "Matériaux",
+      "Sanitaire",
+      "Éclairage"
+    ],
+    "statut": "Référentiel",
+    "source": "Référentiel Chine — sources de sourcing 2026",
+    "date_verification": "2026-10-02"
+  },
+  {
+    "id": "dongguan",
+    "nom": "Dongguan",
+    "province": "Guangdong",
+    "type": "ville",
+    "zone_parente": "",
+    "specialisations": [
+      "Électronique",
+      "Assemblage",
+      "Jouets",
+      "Emballage",
+      "Meubles"
+    ],
+    "statut": "Référentiel",
+    "source": "Référentiel Chine — sources de sourcing 2026",
+    "date_verification": "2026-10-02"
+  },
+  {
+    "id": "zhongshan-guzhen",
+    "nom": "Zhongshan / Guzhen",
+    "province": "Guangdong",
+    "type": "ville_zone",
+    "zone_parente": "Zhongshan",
+    "specialisations": [
+      "Éclairage",
+      "LED",
+      "Appareils domestiques"
+    ],
+    "statut": "Référentiel",
+    "source": "Référentiel Chine — sources de sourcing 2026",
+    "date_verification": "2026-10-02"
+  },
+  {
+    "id": "shantou-chenghai",
+    "nom": "Shantou / Chenghai",
+    "province": "Guangdong",
+    "type": "ville_zone",
+    "zone_parente": "Shantou",
+    "specialisations": [
+      "Jouets",
+      "Jeux"
+    ],
+    "statut": "Référentiel",
+    "source": "Référentiel Chine — sources de sourcing 2026",
+    "date_verification": "2026-10-02"
+  },
+  {
+    "id": "shaoxing-keqiao",
+    "nom": "Shaoxing / Keqiao",
+    "province": "Zhejiang",
+    "type": "ville_zone",
+    "zone_parente": "Shaoxing",
+    "specialisations": [
+      "Tissus",
+      "Textiles",
+      "Matières pour vêtements"
+    ],
+    "statut": "Référentiel",
+    "source": "Référentiel Chine — sources de sourcing 2026",
+    "date_verification": "2026-10-02"
+  },
+  {
+    "id": "wenzhou",
+    "nom": "Wenzhou",
+    "province": "Zhejiang",
+    "type": "ville",
+    "zone_parente": "",
+    "specialisations": [
+      "Chaussures",
+      "Lunettes",
+      "Produits électriques",
+      "Emballage"
+    ],
+    "statut": "Référentiel",
+    "source": "Référentiel Chine — sources de sourcing 2026",
+    "date_verification": "2026-10-02"
+  },
+  {
+    "id": "ningbo",
+    "nom": "Ningbo",
+    "province": "Zhejiang",
+    "type": "ville",
+    "zone_parente": "",
+    "specialisations": [
+      "Quincaillerie",
+      "Outils",
+      "Plastique",
+      "Produits maison"
+    ],
+    "statut": "Référentiel",
+    "source": "Référentiel Chine — sources de sourcing 2026",
+    "date_verification": "2026-10-02"
+  }
+]

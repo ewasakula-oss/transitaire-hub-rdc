@@ -1,0 +1,464 @@
+[
+  {
+    "id": 1,
+    "nom": "KPM Cargo & TLC",
+    "ville": "Lubumbashi",
+    "adresse": "7876 Av. de Ruwe, Lubumbashi",
+    "telephone": "+243843333011",
+    "whatsapp": "+243843333011",
+    "villes_chine": [
+      "À vérifier"
+    ],
+    "destinations_rdc": [
+      "Lubumbashi"
+    ],
+    "marchandises": [
+      "À vérifier"
+    ],
+    "transport": [
+      "Fret express",
+      "Fret aérien",
+      "Fret maritime",
+      "Transport national"
+    ],
+    "poids_minimum": null,
+    "statut_verification": "Partiellement vérifié",
+    "source": "Recherche web — fiche locale",
+    "date_verification": "2026-10-01",
+    "services": [
+      "Fret express",
+      "Fret aérien",
+      "Fret maritime",
+      "Transport international",
+      "Transport national"
+    ],
+    "tarifs": "Fret aérien Chine → RDC : 0–5 kg : À vérifier ; 5–15 kg : 23,75 $/kg ; 15–500 kg : 23,25 $/kg ; 500–1000 kg : 22,25 $/kg ; 1000 kg+ : 21,75 $/kg",
+    "delais": "À vérifier",
+    "sources": [
+      {
+        "nom": "KPM-TLC — Agence de Lubumbashi",
+        "url": "https://kpm-tlc.com/agencies/lubumbashi",
+        "note": "Agence officielle KPM-TLC à Lubumbashi."
+      },
+      {
+        "nom": "KPM-TLC — Présentation des agences",
+        "url": "https://kpm-tlc.com/article/kpm-cargo-fait-peau-neuve",
+        "note": "KPM-TLC confirme une agence de Chine et les services express, aérien et maritime."
+      }
+    ],
+    "derniere_verification": "2026-09-23",
+    "niveau_confiance": "Partiellement vérifié",
+    "notes": [
+      "Présence à Lubumbashi confirmée sur le site officiel KPM-TLC.",
+      "Une agence de Chine est confirmée, mais sa ville exacte n'est pas suffisamment documentée.",
+      "Ne pas attribuer Guangzhou ou Yiwu sans confirmation.",
+      "Tarifs et délais Chine-RDC à confirmer directement auprès de KPM-TLC."
+    ],
+    "tarification": {
+      "service": "Fret aérien — Chine → RDC",
+      "devise": "$",
+      "unite_tarifaire": "kg",
+      "type": "prix_au_kg",
+      "frais_dossier": 10,
+      "poids_minimum_tarif": 5,
+      "source_tarif": "https://www.kpm-group.com/pricing",
+      "date_verification": "2026-10-01",
+      "tranches": [
+        {
+          "libelle": "0–5 kg",
+          "min_kg": 0,
+          "max_kg": 5,
+          "prix": null,
+          "statut": "À vérifier",
+          "source": "Aucune grille publique trouvée pour cette tranche",
+          "date_verification": "2026-10-01"
+        },
+        {
+          "libelle": "5–15 kg",
+          "min_kg": 5,
+          "max_kg": 15,
+          "prix": 23.75,
+          "statut": "Confirmé — site officiel",
+          "source": "KPM Group — Tarification Chine → RDC",
+          "date_verification": "2026-10-01"
+        },
+        {
+          "libelle": "15–500 kg",
+          "min_kg": 15,
+          "max_kg": 500,
+          "prix": 23.25,
+          "statut": "Confirmé — site officiel",
+          "source": "KPM Group — Tarification Chine → RDC",
+          "date_verification": "2026-10-01"
+        },
+        {
+          "libelle": "500–1000 kg",
+          "min_kg": 500,
+          "max_kg": 1000,
+          "prix": 22.25,
+          "statut": "Confirmé — site officiel",
+          "source": "KPM Group — Tarification Chine → RDC",
+          "date_verification": "2026-10-01"
+        },
+        {
+          "libelle": "1000 kg+",
+          "min_kg": 1000,
+          "max_kg": null,
+          "prix": 21.75,
+          "statut": "Confirmé — site officiel",
+          "source": "KPM Group — Tarification Chine → RDC",
+          "date_verification": "2026-10-01"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "nom": "Congo Queen SARL",
+    "ville": "Lubumbashi",
+    "adresse": "23 Avenue Munongo, Ex Kasaï, Lubumbashi",
+    "telephone": "+243892776701",
+    "whatsapp": "+243892776701",
+    "villes_chine": [
+      "Guangzhou",
+      "Yiwu"
+    ],
+    "destinations_rdc": [
+      "Lubumbashi",
+      "Kolwezi"
+    ],
+    "marchandises": [
+      "À vérifier"
+    ],
+    "transport": [
+      "Aérien",
+      "Maritime"
+    ],
+    "poids_minimum": null,
+    "statut_verification": "Partiellement vérifié",
+    "source": "Site officiel Congo Queen",
+    "date_verification": "2026-10-01",
+    "services": [
+      "Fret aérien",
+      "Fret maritime",
+      "Groupage",
+      "Dédouanement",
+      "Entreposage",
+      "Transport",
+      "Logistique"
+    ],
+    "tarifs": "Fret aérien Chine → RDC : 15,50 $/kg",
+    "delais": "À vérifier",
+    "sources": [
+      {
+        "nom": "Site officiel Congo Queen",
+        "url": "https://congoqueen.com/",
+        "note": "Bureaux, entrepôts Chine et services."
+      },
+      {
+        "nom": "Conditions de transport Congo Queen",
+        "url": "https://congoqueen.com/contact/",
+        "note": "Conditions concernant les colis, poids, volume et entreposage."
+      }
+    ],
+    "derniere_verification": "2026-09-23",
+    "niveau_confiance": "Vérifié sur source officielle",
+    "notes": [
+      "Entrepôt aérien documenté à Guangzhou.",
+      "Entrepôt maritime documenté à Yiwu.",
+      "Bureau documenté à Lubumbashi.",
+      "Bureau documenté à Kolwezi.",
+      "Les tarifs et délais doivent être confirmés directement selon la marchandise et le mode de transport."
+    ],
+    "tarification": {
+      "service": "Air Cargo — Chine → RDC",
+      "devise": "$",
+      "unite_tarifaire": "kg",
+      "type": "prix_au_kg",
+      "frais_dossier": null,
+      "poids_minimum_tarif": 0,
+      "source_tarif": "https://congoqueen.net/pricing/",
+      "date_verification": "2026-10-01",
+      "tranches": [
+        {
+          "libelle": "0–15 kg",
+          "min_kg": 0,
+          "max_kg": 15,
+          "prix": 15.5,
+          "statut": "Confirmé — site officiel",
+          "source": "Congo Queen — Pricing",
+          "date_verification": "2026-10-01"
+        },
+        {
+          "libelle": "15–20 kg",
+          "min_kg": 15,
+          "max_kg": 20,
+          "prix": 15.5,
+          "statut": "Confirmé — site officiel",
+          "source": "Congo Queen — Pricing",
+          "date_verification": "2026-10-01"
+        },
+        {
+          "libelle": "20–50 kg",
+          "min_kg": 20,
+          "max_kg": 50,
+          "prix": 15.5,
+          "statut": "Confirmé — site officiel",
+          "source": "Congo Queen — Pricing",
+          "date_verification": "2026-10-01"
+        },
+        {
+          "libelle": "50 kg+",
+          "min_kg": 50,
+          "max_kg": null,
+          "prix": 15.5,
+          "statut": "Confirmé — site officiel",
+          "source": "Congo Queen — Pricing",
+          "date_verification": "2026-10-01"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "nom": "Cargo Congo",
+    "ville": "Lubumbashi",
+    "adresse": "19211, Route Likasi – Lubumbashi, RDC",
+    "telephone": "+243 890 073 152",
+    "whatsapp": "+243 890 073 152",
+    "villes_chine": [
+      "À vérifier"
+    ],
+    "destinations_rdc": [
+      "Lubumbashi",
+      "Likasi",
+      "Kambove",
+      "Kolwezi",
+      "Kasumbalesa",
+      "Kinshasa"
+    ],
+    "marchandises": [
+      "À vérifier"
+    ],
+    "transport": [
+      "Transit aérien",
+      "Transit routier",
+      "Dédouanement",
+      "Logistique"
+    ],
+    "poids_minimum": null,
+    "statut_verification": "Partiellement vérifié",
+    "source": "Site officiel Cargo Congo",
+    "date_verification": "2026-09-23",
+    "services": [
+      "Dédouanement",
+      "Transit routier",
+      "Transit aérien",
+      "Logistique",
+      "Import",
+      "Export"
+    ],
+    "tarifs": "À vérifier",
+    "delais": "À vérifier",
+    "sources": [
+      {
+        "nom": "Site officiel Cargo Congo",
+        "url": "https://cargo-congo.com/",
+        "note": "Activités de dédouanement, transit routier et aérien en RDC."
+      },
+      {
+        "nom": "Contacts chinois Cargo Congo",
+        "url": "https://cargo-congo.com/zh/contacts-chinese/",
+        "note": "Contacts publiés pour les opérations liées à la Chine."
+      }
+    ],
+    "derniere_verification": "2026-09-23",
+    "niveau_confiance": "Partiellement vérifié",
+    "notes": [
+      "Présence confirmée à Lubumbashi, Likasi, Kambove, Kolwezi, Kasumbalesa et Kinshasa.",
+      "Le site officiel confirme le transit routier et aérien ainsi que le dédouanement et la logistique.",
+      "Aucune ville de dépôt en Chine n’est attribuée sans confirmation explicite.",
+      "Tarifs, délais, marchandises acceptées et poids minimum à confirmer directement auprès de Cargo Congo."
+    ],
+    "tarification": {
+      "devise": "À vérifier",
+      "unite_tarifaire": "À vérifier",
+      "type": "À vérifier",
+      "tranches": [
+        {
+          "libelle": "0–15 kg",
+          "min_kg": 0,
+          "max_kg": 15,
+          "prix": null,
+          "statut": "À vérifier",
+          "source": "",
+          "date_verification": ""
+        },
+        {
+          "libelle": "15–20 kg",
+          "min_kg": 15,
+          "max_kg": 20,
+          "prix": null,
+          "statut": "À vérifier",
+          "source": "",
+          "date_verification": ""
+        },
+        {
+          "libelle": "20–50 kg",
+          "min_kg": 20,
+          "max_kg": 50,
+          "prix": null,
+          "statut": "À vérifier",
+          "source": "",
+          "date_verification": ""
+        },
+        {
+          "libelle": "50 kg+",
+          "min_kg": 50,
+          "max_kg": null,
+          "prix": null,
+          "statut": "À vérifier",
+          "source": "",
+          "date_verification": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "kintu-logistics",
+    "nom": "Kintu Logistics",
+    "ville": "Lubumbashi",
+    "adresse": "À vérifier",
+    "telephone": "À vérifier",
+    "whatsapp": "À vérifier",
+    "villes_chine": [
+      "Guangzhou",
+      "Yiwu"
+    ],
+    "destinations_rdc": [
+      "Kinshasa",
+      "Lubumbashi"
+    ],
+    "marchandises": [
+      "À vérifier"
+    ],
+    "transport": [
+      "Aérien",
+      "Maritime",
+      "Routier"
+    ],
+    "poids_minimum": null,
+    "statut_verification": "Informations vérifiées partiellement",
+    "source": "https://www.kintulogistics.com/",
+    "date_verification": "2026-10-02",
+    "services": [
+      "Groupage maritime",
+      "Conteneur complet",
+      "Fret aérien",
+      "Dédouanement",
+      "Livraison finale",
+      "Suivi"
+    ],
+    "tarifs": "À vérifier",
+    "delais": "À vérifier",
+    "sources": [
+      "https://www.kintulogistics.com/"
+    ],
+    "derniere_verification": "2026-10-02",
+    "niveau_confiance": "Moyen",
+    "notes": "Les hubs Guangzhou et Yiwu ainsi que la desserte de Lubumbashi sont publiés. Coordonnées RDC et tarifs à vérifier.",
+    "tarification": "À vérifier"
+  },
+  {
+    "id": "africa-life",
+    "nom": "Africa Life",
+    "ville": "Lubumbashi",
+    "adresse": "Centre commercial Kenya, Av. Manono N°5",
+    "telephone": "+243 852 547 302",
+    "whatsapp": "+243 995 854 099",
+    "villes_chine": [
+      "Yiwu",
+      "Foshan"
+    ],
+    "destinations_rdc": [
+      "Lubumbashi",
+      "Kinshasa"
+    ],
+    "marchandises": [
+      "À vérifier"
+    ],
+    "transport": [
+      "Aérien",
+      "Maritime",
+      "Terrestre"
+    ],
+    "poids_minimum": null,
+    "statut_verification": "Informations vérifiées partiellement",
+    "source": "https://yiwu-africa-life.com/contacts/",
+    "date_verification": "2026-10-02",
+    "services": [
+      "Groupage",
+      "Conteneur complet",
+      "Fret aérien",
+      "Fret maritime",
+      "Transport terrestre",
+      "Dédouanement",
+      "Import-export"
+    ],
+    "tarifs": "À vérifier",
+    "delais": "Chine → Lubumbashi : environ 6 semaines pour le groupage maritime",
+    "sources": [
+      "https://yiwu-africa-life.com/contacts/",
+      "https://yiwu-africa-life.com/"
+    ],
+    "derniere_verification": "2026-10-02",
+    "niveau_confiance": "Élevé",
+    "notes": "Présence documentée à Yiwu et Foshan ainsi qu'à Lubumbashi. Tarifs et poids minimum à vérifier.",
+    "tarification": "À vérifier"
+  },
+  {
+    "id": "yemi-global-cargo",
+    "nom": "YEMI Global Cargo Services L.L.C",
+    "ville": "Lubumbashi",
+    "adresse": "7th Street, Bel’air Neighborhood, Lubumbashi",
+    "telephone": "+243 812 776 838",
+    "whatsapp": "À vérifier",
+    "villes_chine": [
+      "Guangzhou"
+    ],
+    "destinations_rdc": [
+      "Kinshasa",
+      "Lubumbashi"
+    ],
+    "marchandises": [
+      "À vérifier"
+    ],
+    "transport": [
+      "Aérien",
+      "Maritime",
+      "Routier"
+    ],
+    "poids_minimum": null,
+    "statut_verification": "Informations vérifiées partiellement",
+    "source": "https://yemiservices.com/our-locations/",
+    "date_verification": "2026-10-02",
+    "services": [
+      "Fret aérien",
+      "Fret maritime",
+      "Consolidation",
+      "Livraison porte-à-porte",
+      "Dédouanement",
+      "Import-export"
+    ],
+    "tarifs": "À vérifier",
+    "delais": "À vérifier",
+    "sources": [
+      "https://yemiservices.com/our-locations/",
+      "https://yemiservices.com/"
+    ],
+    "derniere_verification": "2026-10-02",
+    "niveau_confiance": "Moyen",
+    "notes": "Bureau d'approvisionnement publié à Guangzhou et bureau RDC publié à Lubumbashi. Tarifs et poids minimum à vérifier.",
+    "tarification": "À vérifier"
+  }
+]

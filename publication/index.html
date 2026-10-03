@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b1f33">
+<title>TRANSITAIRE HUB RDC — V7</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#f4f6f8;color:#17202a;line-height:1.45}
+button,input,select{font:inherit}
+header{background:#0b1f33;color:#fff;padding:20px 16px}
+.container{max-width:680px;margin:auto;padding:20px 16px 40px}
+.logo{font-size:23px;font-weight:800;letter-spacing:.2px}.logo span{color:#20c997}.tagline{margin-top:5px;font-size:13px;color:#cbd5df}
+.hero{margin:4px 0 18px}.hero h1{font-size:29px;line-height:1.15;margin-bottom:9px}.hero p{font-size:15px;color:#65717c}
+.search-card,.card,.no-results,.error-box,.empty-box{background:#fff;border-radius:16px;box-shadow:0 5px 20px rgba(0,0,0,.06)}
+.search-card{padding:18px}.search-card h2{font-size:19px;margin-bottom:16px}
+.field{margin-bottom:14px}label{display:block;font-size:13px;font-weight:700;color:#34495e;margin-bottom:6px}
+input,select{width:100%;padding:13px 14px;border:1px solid #d7dde3;border-radius:11px;background:#fff;color:#17202a;outline:none}
+input:focus,select:focus{border-color:#20c997;box-shadow:0 0 0 3px rgba(32,201,151,.10)}
+.search-button,.reset-button,.back-button{width:100%;border:0;border-radius:11px;padding:14px;font-weight:800;cursor:pointer}
+.search-button{background:#0b1f33;color:#fff}.reset-button{margin-top:8px;background:#eef1f3;color:#34495e;display:none}
+.help{margin-top:12px;background:#eef8f5;border:1px solid #cceee3;color:#196c57;border-radius:10px;padding:11px;font-size:12px}
+.info-grid{display:grid;gap:10px;margin-top:18px}.info-box{background:#fff;border-radius:14px;padding:14px;box-shadow:0 5px 20px rgba(0,0,0,.04)}
+.info-box strong{display:block;margin-bottom:4px}.info-box p{font-size:13px;color:#68737d}
+#section-resultats{display:none}.back-button{background:#e9edf0;color:#34495e;margin-bottom:18px}
+.results-title{font-size:26px;margin-bottom:6px}.results-summary{color:#68737d;font-size:14px;margin-bottom:15px}
+.card{padding:17px;margin-bottom:13px}.card-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.company{font-size:19px;font-weight:800}.badge{font-size:11px;font-weight:800;border-radius:20px;padding:6px 8px;white-space:nowrap;background:#e8f8f2;color:#087f5b}.badge.warning{background:#fff3cd;color:#856404}
+.location{font-size:13px;color:#68737d;margin:8px 0 12px}.tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}.tag{font-size:11px;background:#f1f4f6;color:#34495e;padding:6px 8px;border-radius:8px}
+.info-line{font-size:13px;color:#52606d;margin-bottom:7px}.info-line strong{color:#263746}
+.buttons{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}.btn{display:block;text-align:center;text-decoration:none;border:0;border-radius:10px;padding:11px 8px;font-size:13px;font-weight:800;cursor:pointer}.btn-details{background:#0b1f33;color:#fff}.btn-whatsapp{background:#e8f8f2;color:#087f5b}.btn-call{background:#f1f4f6;color:#34495e;grid-column:1/3}
+.details{display:none;margin-top:12px;background:#f8fafb;border-radius:11px;padding:12px;font-size:12px;line-height:1.7}.details strong{color:#263746}
+.no-results,.error-box,.empty-box{padding:24px 17px;text-align:center}.icon{font-size:38px;margin-bottom:8px}.no-results h3,.error-box h3,.empty-box h3{margin-bottom:7px}.no-results p,.error-box p,.empty-box p{font-size:13px;color:#68737d}.error-box{border:1px solid #f0c7c7}.error-box strong{color:#a61e1e}
+.status{font-size:12px;margin-bottom:12px;color:#68737d}.status.ok{color:#087f5b}.status.fail{color:#a61e1e}
+footer{text-align:center;color:#89939c;font-size:11px;padding:18px}
+@media(max-width:420px){.card-top{flex-direction:column}.badge{align-self:flex-start}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">TRANSITAIRE <span>HUB</span> RDC</div>
+  <div class="tagline">Trouver • Comparer • Contacter</div>
+</header>
+
+<main class="container">
+<section id="section-recherche">
+  <div class="hero">
+    <h1>Trouvez votre transitaire en RDC</h1>
+    <p>Recherche par origine, destination, marchandise et poids. Les informations « À vérifier » restent visibles et sont clairement signalées.</p>
+  </div>
+
+  <div class="search-card">
+    <h2>Rechercher un transitaire</h2>
+    <div id="etat-chargement" class="status">Chargement de la base…</div>
+
+    <div class="field">
+      <label for="depart">Départ (Chine)</label>
+      <select id="depart"><option value="">Toutes les origines</option></select>
+    </div>
+
+    <div class="field">
+      <label for="destination">Destination (RDC)</label>
+      <select id="destination"><option value="">Toutes les destinations</option></select>
+    </div>
+
+    <div class="field">
+      <label for="marchandise">Type de marchandise</label>
+      <input id="marchandise" type="text" placeholder="Ex. vêtements, téléphones, chaussures">
+    </div>
+
+    <div class="field">
+      <label for="poids">Poids approximatif (kg)</label>
+      <input id="poids" type="number" min="0.1" step="0.1" placeholder="Ex. 20">
+    </div>
+
+    <button id="bouton-recherche" class="search-button" type="button">🔎 Rechercher</button>
+    <button id="bouton-reset" class="reset-button" type="button">↺ Réinitialiser</button>
+
+    <div class="help">💡 Tu peux lancer une recherche avec un seul critère. Le moteur ne bloque pas parce qu'un opérateur possède une information « À vérifier ».</div>
+  </div>
+
+  <section class="info-grid">
+    <div class="info-box"><strong>📍 Informations locales</strong><p>Adresse, téléphone, WhatsApp et villes desservies.</p></div>
+    <div class="info-box"><strong>📦 Services</strong><p>Transport, groupage, fret et autres services présents dans la base.</p></div>
+    <div class="info-box"><strong>🔎 Vérification</strong><p>Chaque fiche conserve son statut, sa source et sa date lorsque ces données existent.</p></div>
+  </section>
+</section>
+
+<section id="section-resultats">
+  <button id="bouton-retour" class="back-button" type="button">← Modifier ma recherche</button>
+  <h2 class="results-title">Transitaires disponibles</h2>
+  <p id="summary" class="results-summary"></p>
+  <div id="cards"></div>
+</section>
+</main>
+
+<footer>TRANSITAIRE HUB RDC — V7</footer>
+<script src="script.js"></script>
+</body>
+</html>

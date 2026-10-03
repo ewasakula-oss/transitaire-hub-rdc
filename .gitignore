@@ -1,0 +1,9 @@
+# Ignorer tout le projet par défaut
+*
+
+# Autoriser le fichier de configuration Git
+!.gitignore
+
+# Autoriser uniquement la version destinée à la publication
+!publication/
+!publication/**
