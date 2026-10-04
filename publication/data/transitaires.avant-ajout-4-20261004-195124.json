@@ -22,7 +22,7 @@
       "Transport national"
     ],
     "poids_minimum": null,
-    "statut_verification": "Informations vérifiées partiellement",
+    "statut_verification": "Partiellement vérifié",
     "source": "Recherche web — fiche locale",
     "date_verification": "2026-10-01",
     "services": [
@@ -135,7 +135,7 @@
       "Maritime"
     ],
     "poids_minimum": null,
-    "statut_verification": "Informations vérifiées partiellement",
+    "statut_verification": "Partiellement vérifié",
     "source": "Site officiel Congo Queen",
     "date_verification": "2026-10-01",
     "services": [
@@ -247,9 +247,9 @@
       "Logistique"
     ],
     "poids_minimum": null,
-    "statut_verification": "Informations vérifiées partiellement",
+    "statut_verification": "Partiellement vérifié",
     "source": "Site officiel Cargo Congo",
-    "date_verification": "2026-10-04",
+    "date_verification": "2026-09-23",
     "services": [
       "Dédouanement",
       "Transit routier",
@@ -322,9 +322,7 @@
           "date_verification": ""
         }
       ]
-    },
-    "adresse_likasi": "03, Avenue des Anciens Combattants, Likasi",
-    "telephone_likasi": "+243 82 61 60 986"
+    }
   },
   {
     "id": "kintu-logistics",
@@ -461,164 +459,6 @@
     "derniere_verification": "2026-10-02",
     "niveau_confiance": "Moyen",
     "notes": "Bureau d'approvisionnement publié à Guangzhou et bureau RDC publié à Lubumbashi. Tarifs et poids minimum à vérifier.",
-    "tarification": "À vérifier"
-  },
-  {
-    "id": "karibu-international",
-    "nom": "Karibu International",
-    "ville": "Lubumbashi",
-    "adresse": "Ruwe coin du 30 Juin, Lubumbashi",
-    "telephone": "+243 995 411 711",
-    "whatsapp": "+243 995 411 711",
-    "villes_chine": [
-      "À vérifier"
-    ],
-    "destinations_rdc": [
-      "Lubumbashi"
-    ],
-    "marchandises": [
-      "À vérifier"
-    ],
-    "transport": [
-      "Fret aérien",
-      "Fret maritime",
-      "Transport terrestre"
-    ],
-    "poids_minimum": null,
-    "statut_verification": "Informations vérifiées partiellement",
-    "source": "Site officiel Karibu International",
-    "date_verification": "2026-10-04",
-    "services": [
-      "Sourcing",
-      "Consolidation",
-      "Fret aérien",
-      "Fret maritime",
-      "Douane",
-      "Inspection / contrôle qualité"
-    ],
-    "delais": "À vérifier",
-    "tarifs": "À vérifier",
-    "tarification": "À vérifier"
-  },
-  {
-    "id": "logistics-bmc",
-    "nom": "Logistics BMC",
-    "ville": "Lubumbashi",
-    "adresse": "86, AV. Industrielle, Q. Industriel, C. Kampemba, Lubumbashi, RDC",
-    "telephone": "+243 838 567 479",
-    "whatsapp": "+243 838 567 479",
-    "villes_chine": [
-      "À vérifier"
-    ],
-    "destinations_rdc": [
-      "Lubumbashi",
-      "Likasi",
-      "Kolwezi"
-    ],
-    "marchandises": [
-      "Machines industrielles",
-      "Équipements miniers",
-      "Matériel médical",
-      "Équipements agricoles",
-      "Matériaux de construction"
-    ],
-    "transport": [
-      "Fret aérien",
-      "Fret maritime",
-      "Transport national"
-    ],
-    "poids_minimum": null,
-    "statut_verification": "Informations vérifiées partiellement",
-    "source": "Site officiel Logistics BMC",
-    "date_verification": "2026-10-04",
-    "services": [
-      "Sourcing",
-      "Importation",
-      "Transport",
-      "Consolidation",
-      "Dédouanement",
-      "Livraison inter-villes",
-      "Conseil logistique"
-    ],
-    "delais": "25–40 jours selon le transport et la période",
-    "tarifs": "À vérifier",
-    "tarification": "À vérifier"
-  },
-  {
-    "id": "mestam-sarl",
-    "nom": "MESTAM SARL",
-    "ville": "Lubumbashi",
-    "adresse": "Centre-ville, AV. Mwepu, bâtiment Mulongo, local 12, Lubumbashi",
-    "telephone": "+243 821 254 999",
-    "whatsapp": "À vérifier",
-    "villes_chine": [
-      "À vérifier"
-    ],
-    "destinations_rdc": [
-      "Kinshasa",
-      "Lubumbashi",
-      "Kolwezi"
-    ],
-    "marchandises": [
-      "Équipements industriels",
-      "Groupes électrogènes",
-      "Matériel de construction",
-      "Produits techniques"
-    ],
-    "transport": [
-      "Fret aérien",
-      "Fret maritime",
-      "Transport terrestre"
-    ],
-    "poids_minimum": null,
-    "statut_verification": "Informations vérifiées partiellement",
-    "source": "Site officiel MESTAM SARL",
-    "date_verification": "2026-10-04",
-    "services": [
-      "Commande en Chine",
-      "Contrôle qualité",
-      "Transport",
-      "Dédouanement",
-      "Livraison finale"
-    ],
-    "delais": "À vérifier",
-    "tarifs": "À vérifier",
-    "tarification": "À vérifier"
-  },
-  {
-    "id": "guangzhou-wonfong-africa",
-    "nom": "Guangzhou Wonfong Africa International Logistics",
-    "ville": "Lubumbashi",
-    "adresse": "ETS Congo Chine Service, 296 Av. Mama Yemo, Lubumbashi",
-    "telephone": "À vérifier",
-    "whatsapp": "À vérifier",
-    "villes_chine": [
-      "Guangzhou"
-    ],
-    "destinations_rdc": [
-      "Lubumbashi"
-    ],
-    "marchandises": [
-      "À vérifier"
-    ],
-    "transport": [
-      "Fret aérien",
-      "Fret maritime"
-    ],
-    "poids_minimum": null,
-    "statut_verification": "Informations vérifiées partiellement",
-    "source": "Site officiel + annuaires locaux",
-    "date_verification": "2026-10-04",
-    "services": [
-      "Fret aérien",
-      "Fret maritime",
-      "Dédouanement",
-      "Livraison porte-à-porte",
-      "Entreposage",
-      "Consolidation"
-    ],
-    "delais": "À vérifier",
-    "tarifs": "À vérifier",
     "tarification": "À vérifier"
   }
 ]
