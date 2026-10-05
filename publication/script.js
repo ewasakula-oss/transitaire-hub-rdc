@@ -816,7 +816,7 @@ function creerCarte(t, recherche = {}) {
                     class="btn btn-details"
                     type="button"
                     data-action="details"
-                    data-id="${Number(t.id)}"
+                    data-id="${echapperHTML(String(t.id))}"
                 >
                     Voir la fiche
                 </button>
@@ -848,7 +848,7 @@ function creerCarte(t, recherche = {}) {
             </div>
 
             <div
-                id="details-${Number(t.id)}"
+                id="details-${echapperHTML(String(t.id))}"
                 class="details"
             >
                 <strong>Fiche du transitaire</strong><br>
