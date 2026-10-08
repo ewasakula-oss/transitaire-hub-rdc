@@ -21,7 +21,7 @@
       "Fret maritime",
       "Transport national"
     ],
-    "poids_minimum": null,
+    "poids_minimum": "À vérifier",
     "statut_verification": "Informations vérifiées partiellement",
     "source": "Recherche web — fiche locale",
     "date_verification": "2026-10-01",
@@ -134,7 +134,7 @@
       "Aérien",
       "Maritime"
     ],
-    "poids_minimum": null,
+    "poids_minimum": "À vérifier",
     "statut_verification": "Informations vérifiées partiellement",
     "source": "Site officiel Congo Queen",
     "date_verification": "2026-10-01",
@@ -217,7 +217,11 @@
           "date_verification": "2026-10-01"
         }
       ]
-    }
+    },
+    "poles_chine": [
+      "Guangzhou",
+      "Yiwu"
+    ]
   },
   {
     "id": 3,
@@ -246,7 +250,7 @@
       "Dédouanement",
       "Logistique"
     ],
-    "poids_minimum": null,
+    "poids_minimum": "À vérifier",
     "statut_verification": "Informations vérifiées partiellement",
     "source": "Site officiel Cargo Congo",
     "date_verification": "2026-10-04",
@@ -349,7 +353,7 @@
       "Maritime",
       "Routier"
     ],
-    "poids_minimum": null,
+    "poids_minimum": "À vérifier",
     "statut_verification": "Informations vérifiées partiellement",
     "source": "https://www.kintulogistics.com/",
     "date_verification": "2026-10-02",
@@ -369,7 +373,16 @@
     "derniere_verification": "2026-10-02",
     "niveau_confiance": "Moyen",
     "notes": "Les hubs Guangzhou et Yiwu ainsi que la desserte de Lubumbashi sont publiés. Coordonnées RDC et tarifs à vérifier.",
-    "tarification": "À vérifier"
+    "tarification": {
+      "devise": "À vérifier",
+      "unite_tarifaire": "À vérifier",
+      "type": "À vérifier",
+      "tranches": []
+    },
+    "poles_chine": [
+      "Guangzhou",
+      "Yiwu"
+    ]
   },
   {
     "id": "africa-life",
@@ -394,7 +407,7 @@
       "Maritime",
       "Terrestre"
     ],
-    "poids_minimum": null,
+    "poids_minimum": "À vérifier",
     "statut_verification": "Informations vérifiées partiellement",
     "source": "https://yiwu-africa-life.com/contacts/",
     "date_verification": "2026-10-02",
@@ -416,7 +429,16 @@
     "derniere_verification": "2026-10-02",
     "niveau_confiance": "Élevé",
     "notes": "Présence documentée à Yiwu et Foshan ainsi qu'à Lubumbashi. Tarifs et poids minimum à vérifier.",
-    "tarification": "À vérifier"
+    "tarification": {
+      "devise": "À vérifier",
+      "unite_tarifaire": "À vérifier",
+      "type": "À vérifier",
+      "tranches": []
+    },
+    "poles_chine": [
+      "Yiwu",
+      "Foshan"
+    ]
   },
   {
     "id": "yemi-global-cargo",
@@ -440,7 +462,7 @@
       "Maritime",
       "Routier"
     ],
-    "poids_minimum": null,
+    "poids_minimum": "À vérifier",
     "statut_verification": "Informations vérifiées partiellement",
     "source": "https://yemiservices.com/our-locations/",
     "date_verification": "2026-10-02",
@@ -461,7 +483,15 @@
     "derniere_verification": "2026-10-02",
     "niveau_confiance": "Moyen",
     "notes": "Bureau d'approvisionnement publié à Guangzhou et bureau RDC publié à Lubumbashi. Tarifs et poids minimum à vérifier.",
-    "tarification": "À vérifier"
+    "tarification": {
+      "devise": "À vérifier",
+      "unite_tarifaire": "À vérifier",
+      "type": "À vérifier",
+      "tranches": []
+    },
+    "poles_chine": [
+      "Guangzhou"
+    ]
   },
   {
     "id": "karibu-international",
@@ -484,7 +514,7 @@
       "Fret maritime",
       "Transport terrestre"
     ],
-    "poids_minimum": null,
+    "poids_minimum": "À vérifier",
     "statut_verification": "Informations vérifiées partiellement",
     "source": "Site officiel Karibu International",
     "date_verification": "2026-10-04",
@@ -498,7 +528,13 @@
     ],
     "delais": "À vérifier",
     "tarifs": "À vérifier",
-    "tarification": "À vérifier"
+    "tarification": {
+      "devise": "À vérifier",
+      "unite_tarifaire": "À vérifier",
+      "type": "À vérifier",
+      "tranches": []
+    },
+    "derniere_verification": "2026-10-08"
   },
   {
     "id": "logistics-bmc",
@@ -527,7 +563,7 @@
       "Fret maritime",
       "Transport national"
     ],
-    "poids_minimum": null,
+    "poids_minimum": "À vérifier",
     "statut_verification": "Informations vérifiées partiellement",
     "source": "Site officiel Logistics BMC",
     "date_verification": "2026-10-04",
@@ -542,7 +578,13 @@
     ],
     "delais": "25–40 jours selon le transport et la période",
     "tarifs": "À vérifier",
-    "tarification": "À vérifier"
+    "tarification": {
+      "devise": "À vérifier",
+      "unite_tarifaire": "À vérifier",
+      "type": "À vérifier",
+      "tranches": []
+    },
+    "derniere_verification": "2026-10-08"
   },
   {
     "id": "mestam-sarl",
@@ -570,7 +612,7 @@
       "Fret maritime",
       "Transport terrestre"
     ],
-    "poids_minimum": null,
+    "poids_minimum": "À vérifier",
     "statut_verification": "Informations vérifiées partiellement",
     "source": "Site officiel MESTAM SARL",
     "date_verification": "2026-10-04",
@@ -581,9 +623,41 @@
       "Dédouanement",
       "Livraison finale"
     ],
-    "delais": "À vérifier",
-    "tarifs": "À vérifier",
-    "tarification": "À vérifier"
+    "delais": "Aérien : 12–20 jours ; Maritime : 45–55 jours ouvrables ; Express local RDC : 1–7 jours",
+    "tarifs": "Fret aérien Chine → RDC : 16 $/kg ; Fret maritime : 540 $/CBM",
+    "tarification": {
+      "devise": "$",
+      "unite_tarifaire": "kg",
+      "type": "prix_au_kg",
+      "tranches": [
+        {
+          "min": 0,
+          "max": null,
+          "prix": 16,
+          "devise": "$",
+          "unite": "kg",
+          "service": "Fret aérien — Chine → RDC",
+          "statut": "Confirmé — site officiel",
+          "source": "MESTAM SARL — Livraison & Retours",
+          "source_url": "https://www.mestamsarl.com/shipping-returns",
+          "date_verification": "2026-10-08"
+        }
+      ],
+      "services": [
+        {
+          "service": "Fret maritime",
+          "devise": "$",
+          "unite_tarifaire": "CBM",
+          "type": "prix_au_CBM",
+          "prix": 540,
+          "statut": "Confirmé — site officiel",
+          "source": "MESTAM SARL — Livraison & Retours",
+          "source_url": "https://www.mestamsarl.com/shipping-returns",
+          "date_verification": "2026-10-08"
+        }
+      ]
+    },
+    "derniere_verification": "2026-10-08"
   },
   {
     "id": "guangzhou-wonfong-africa",
@@ -605,7 +679,7 @@
       "Fret aérien",
       "Fret maritime"
     ],
-    "poids_minimum": null,
+    "poids_minimum": "À vérifier",
     "statut_verification": "Informations vérifiées partiellement",
     "source": "Site officiel + annuaires locaux",
     "date_verification": "2026-10-04",
@@ -619,6 +693,15 @@
     ],
     "delais": "À vérifier",
     "tarifs": "À vérifier",
-    "tarification": "À vérifier"
+    "tarification": {
+      "devise": "À vérifier",
+      "unite_tarifaire": "À vérifier",
+      "type": "À vérifier",
+      "tranches": []
+    },
+    "derniere_verification": "2026-10-08",
+    "poles_chine": [
+      "Guangzhou"
+    ]
   }
 ]

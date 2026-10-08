@@ -75,12 +75,15 @@ function texteContientRecherche(item, recherche) {
 
 function correspondListe(liste, recherche, type) {
     if (!recherche) {
-        return { match: true, parVerification: false };
+        return {
+            match: true,
+            parVerification: false,
+            correspondanceConfirmee: false
+        };
     }
 
     const valeurs = versListe(liste);
     const inconnue = contientInconnu(valeurs);
-    let match = false;
 
     for (const valeur of valeurs) {
         if (estInconnu(valeur)) continue;
@@ -90,15 +93,36 @@ function correspondListe(liste, recherche, type) {
             : normaliser(valeur) === normaliser(recherche);
 
         if (texte) {
-            match = true;
-            break;
+            return {
+                match: true,
+                parVerification: false,
+                correspondanceConfirmee: true
+            };
         }
     }
 
-    if (match) return { match: true, parVerification: false };
-    if (inconnue) return { match: true, parVerification: true };
+    /*
+     * Une donnée inconnue reste exploitable comme résultat
+     * secondaire, mais elle n'est pas considérée comme
+     * une correspondance confirmée.
+     */
+    if (inconnue) {
+        return {
+            match: true,
+            parVerification: true,
+            correspondanceConfirmee: false
+        };
+    }
 
-    return { match: false, parVerification: false };
+    /*
+     * Une donnée connue mais différente ne correspond pas
+     * à la recherche.
+     */
+    return {
+        match: false,
+        parVerification: false,
+        correspondanceConfirmee: false
+    };
 }
 
 function poidsMinimum(transitaire) {
@@ -422,11 +446,24 @@ function afficherErreurChargement(erreur) {
         </div>`;
 }
 
+function villesChine(transitaire) {
+    const poles = versListe(transitaire.poles_chine);
+
+    if (
+        poles.length &&
+        !poles.every(v => estInconnu(v))
+    ) {
+        return poles;
+    }
+
+    return versListe(transitaire.villes_chine);
+}
+
 function remplirFiltres() {
     remplirSelect(
         "depart",
         transitaires.flatMap(
-            t => versListe(t.villes_chine)
+            t => villesChine(t)
         )
     );
 
@@ -525,11 +562,22 @@ async function rechercher() {
         .map(transitaire => {
 
             const departResult =
-                correspondListe(
-                    transitaire.villes_chine,
-                    depart,
-                    "ville"
-                );
+                depart
+                    ? {
+                        match: villesChine(transitaire)
+                            .some(
+                                v =>
+                                    !estInconnu(v) &&
+                                    normaliser(v) === normaliser(depart)
+                            ),
+                        parVerification: false,
+                        correspondanceConfirmee: true
+                    }
+                    : {
+                        match: true,
+                        parVerification: false,
+                        correspondanceConfirmee: false
+                    };
 
             const destinationResult =
                 correspondListe(
@@ -733,7 +781,7 @@ function creerCarte(t, recherche = {}) {
         || "À vérifier";
 
     const chine =
-        versListe(t.villes_chine).join(" / ")
+        villesChine(t).join(" / ")
         || "À vérifier";
 
     const marchandises =
